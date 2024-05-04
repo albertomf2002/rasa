@@ -1,0 +1,21 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - despedir
+  - intent_hora 
+
+actions:
+  - action_hora
+
+responses:
+  utter_saludar:
+    - text: "Hola! ¿Cómo puedo ayudarte hoy?"
+
+  utter_despedir:
+    - text: "¡Hasta luego! Espero haberte ayudado."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

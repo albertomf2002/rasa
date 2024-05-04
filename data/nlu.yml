@@ -1,0 +1,59 @@
+version: "3.1"
+
+nlu:
+- intent: saludar
+  examples: |
+    - hola
+    - buenos días
+    - ¡hola!
+    - hola, ¿qué tal?
+    - ¡Buenas!
+    - Buenos días
+    - Buenas tardes
+    - Buenas noches
+    - ¿Qué tal?
+    - ¿Cómo estás?
+    - ¡Hey!
+    - Saludos
+    - ¿Qué onda?
+    - ¿Cómo te va?
+    - ¡Hola, amigo!
+    - ¿Qué hay de nuevo?
+    - ¡Cuánto tiempo!
+    - Hola, ¿cómo has estado?
+    - ¡Qué alegría verte!
+    - Hola, ¿todo bien?
+    - ¡Hola, colega!
+    - ¿Cómo van las cosas?
+    - ¡Hola, qué gusto verte!
+    - ¿Qué pasa?
+
+- intent: despedir
+  examples: |
+    - Adiós
+    - Hasta luego
+    - Nos vemos
+    - Chao
+    - Cuídate
+    - Hasta mañana
+    - Hasta pronto
+    - Que tengas un buen día
+    - Buenas noches
+    - Hasta la próxima
+    - ¡Nos vemos pronto!
+    - ¡Cuídate mucho!
+    - ¡Hasta la vista!
+    - Que te vaya bien
+    - Te veo más tarde
+    - Que descanses
+    - Te echo de menos ya
+    - Sigue bien
+    - ¡Hasta siempre!
+    - Que tengas suerte
+
+- intent: intent_hora
+  examples: |
+    - ¿Qué hora es?
+    - Dime la hora
+    - Quisiera saber la hora actual
+    - ¿Me puedes decir la hora?
